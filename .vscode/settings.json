@@ -1,4 +1,6 @@
-//{
+{
+    "html.format.enable": true
+} //{
 //    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 //    "terminal.integrated.shellArgs.windows": ["--login","-i"],
 //    "debug.javascript.defaultRuntimeExecutable": {

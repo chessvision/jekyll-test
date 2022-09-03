@@ -1,12 +1,22 @@
----
----
+<!DOCTYPE html>
+<html>
 
-{% include header.html %}
+<head>
+    <title>{{ page.title }}</title>
+</head>
 
-<main
-  class="bg-indigo-500 flex h-screen items-center justify-center w-full"
->
-  {{ content }}
-</main>
+<body>
+    <div class="container">
 
-{% include footer.html %}
+        {{ content }}
+
+    </div>
+    <!-- /.container -->
+
+
+    <footer>
+        footer
+    </footer>
+</body>
+
+</html>
